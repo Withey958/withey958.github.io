@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
@@ -162,15 +161,14 @@
         height: 72px;
         box-sizing: border-box;
         border-radius: 20px;
-        background-color: #aaa;
+        background-color: white;
         color: #fff;
-        margin: 5px;
+        margin: 7px;
         padding-left: 88px;
-        
         background-size: 72px;
         background-position: left;
         background-repeat: no-repeat;
-        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .05);
+        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .15);
         background-image: url('images/translucent.png');
       }
 
@@ -187,156 +185,25 @@
         float: right;
       }
 
-      .projects .thrive {
-        background-image: url('images/thrive.jpg');
+      .projects .thrive-wearables {
+        background-image: url('images/Thrive_152p.png');
         background-color: #388E3C;
       }
-
-      .projects .bbc-ownit {
-        background-image: url('images/bbc-ownit.png');
-      }
-
-      .projects .clockwork-dog {
-        background-image: url('images/clockwork-dog.png');
-        background-color: #323232;
-      }
-
-      .projects .matchbox {
-        background-image: url('images/matchbox.png');
-        background-color: #F44336;
-      }
-
-      .projects .beano {
-        background-image: url('images/beano.jpg');
-        background-color: #303F9F;
-      }
-
-      .projects .beeline {
-        background-image: url('images/beeline.jpg');
-        background-color: #f2a430;
-      }
-
-      .projects .wheely-bike {
-        background-image: url('images/wheely-bike.png');
-        background-color: #757575;
-      }
-
-      .projects .emojikey {
-        background-image: url('images/emojikey.png');
-        background-color: #0288D1;
-      }
-
-      .projects .boopjs {
-        background-image: url('images/boopjs.png');
-        background-color: #673AB7;
-      }
-
-      .projects .minishift-tetris {
-        background-image: url('images/minishift-tetris.jpg');
-        background-color: #8BC34A;
-      }
-
-      .projects .double {
-        background-image: url('images/double.jpg');
-        background-color: #e3705b;
-      }
-
-      .projects .bb10 {
-        background-image: url('images/bb10.jpg');
-        background-color: #616161;
-      }
-
-      .projects .swiftkey {
-        background-image: url('images/sk-android.png');
-        background-color: #0097A7;
-      }
-
-      .projects .livingmap {
-        background-image: url('images/livingmap.png');
-        background-color: #413c6b;
-      }
-
-      .projects .iapprove {
-        background-image: url('images/iapprove.png');
-        background-color: #3F51B5;
-      }
-
-      .projects .kotlin {
-        background-image: url('images/kotlin.png');
-        background-color: #607D8B;
-      }
-
-      .projects .firebase {
-        background-image: url('images/firebase.png');
-        background-color: #FF5722;
-      }
-
-      .projects .launching-beeline {
-        background-image: url('images/launching-beeline.png');
-        background-color: #795548;
-      }
-
-      .projects .kaleidoscope {
-        background-image: url('images/kaleidoscope.jpg');
-        background-color: #FF4081;
-      }
-
-      .projects .place {
-        background-image: url('https://place.chetbox.com/image.png');
-        background-color: #212121;
-      }
-
-      .projects .t-shaped-talks {
-        background-image: url('images/tshaped.png');
-      }
-
-      .projects .t-shaped-talks-interview {
-        background-image: url('images/tshaped-interview.png');
-      }
-
-      .projects .beeline-rides {
-        background-image: url('images/beeline-rides.png');
-        background-color: #FFC107;
-      }
-
-      .projects .dvd-player {
-        background-image: url('images/dvd.jpg');
-        background-color: #0288D1;
-      }
-
-      .projects .patience {
-        background-image: url('images/playingcard.png');
-        background-color: #009688;
-      }
-
-      .projects .pointy {
-        background-image: url('images/pointy.png');
-        background-color: #212121;
-      }
-
-      .projects .easyedit {
-        background-image: url('images/easyedit.jpg');
-        background-color: #F44336;
-      }
-
-      .projects .lifx-switch {
-        background-image: url('images/lifx.jpg');
-      }
-
-      .projects .dmx-audio-visualiser {
-        background-image: url('images/equalizer.png');
-        background-color: #9C27B0;
-      }
-
-      .projects .node-dmx {
-        background-image: url('images/lighting.jpg');
-        background-color: #3F51B5;
-      }
-
-      .projects .firebase-mock-functions {
-        background-image: url('images/firebase.png');
-        background-color: #212121;
-      }
+        
+        .projects .hbl {
+            background-image: url(images/HBL.png);
+            background-color: dodgerblue;
+        }
+        
+        .projects .lite-wire {
+            background-image: url(images/lite-wire.png);
+            background-color: red;
+        }
+        
+        .projects .celestion {
+            background-image: url(images/celestion.png);
+            background-color: black;
+        }
 
       .projects a {
         text-decoration: none;
@@ -347,6 +214,41 @@
         margin-left: 16px;
         margin-right: 16px;
       }
+
+        .wrapper {
+            display: grid;
+            padding-left: 0;
+            margin: 0;
+            grid-template-columns: repeat(5,100px);
+            grid-auto-rows: 100px;
+        }
+        
+        .wrapper > div  {
+            justify-content: center;
+            background-color: black;
+            color: #fff;
+            margin: 5px;
+            background-size: 72px;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .2);
+            border-radius: 20px;
+        }
+        
+        .wrapper .fusion360 {
+            background-image: url(images/fusion360.jpeg);
+            background-color: white;
+        }
+        
+        .wrapper .inkscape {
+            background-image: url(images/inkscape.png);
+            background-color: white;
+        }
+        
+        .wrapper .kotlin {
+            background-image: url(images/kotlin.png);
+            background-color: white;
+        }
 
       /* small screens */
       @media screen and (max-width: 566px) {
@@ -385,7 +287,7 @@
   <body>
     <header>
       <div id="about-me">
-        <img src="images/myface2.png" alt="@lwithey" title="My Picture">
+        <img src="images/myface1.png" alt="@lwithey" title="My Picture">
         <div class="info">
           <h1>Luke Withey </h1>
           <h2>Product Development in Norwich, UK</h2>
@@ -421,222 +323,51 @@
       <h3>Where I've worked</h3>
       <ol class="projects" id="career">
         <li>
-          <a class="clockwork-dog" href="https://clockwork.dog/" target="_blank" rel="noopener noreferrer">
-            <h4>Clockwork Dog</h4>
+          <a class="thrive-wearables" href="https://thrivewearables.com/" target="_blank" rel="noopener noreferrer">
+            <h4>Thrive Wearables</h4>
             <span class="details">
-              <span class="date">2019 - 2020</span>
-              <span class="description">Dazzling and surprising with tech for escape rooms</span>
+              <span class="date">2018 - 2019</span>
+              <span class="description">Thrive Wearables is the leading wearables design and development consultancy, creating wearables from idea to <br>mass production.</span>
             </span>
           </a>
         </li>
         <li>
-          <a class="bbc-ownit" href="https://www.bbc.com/ownit" target="_blank" rel="noopener noreferrer">
-            <h4>BBC Own It</h4>
+          <a class="hbl" href="https://hbl.co.uk/" target="_blank" rel="noopener noreferrer">
+            <h4>Hosiden Besson</h4>
             <span class="details">
-              <span class="date">2019</span>
-              <span class="description">Help and advice for young people's first leap online</span>
+              <span class="date">2014 - 2018</span>
+              <span class="description">Design and manufacture acoustic, electronic and mechanical ODM and OEM products for companies around the globe.</span>
             </span>
           </a>
         </li>
         <li>
-          <a class="thrive" href="https://thrivewearables.com/" target="_blank" rel="noopener noreferrer">
-            <h4>Thrive</h4>
+          <a class="lite-wire" href="https://www.lite-wire.com/" target="_blank" rel="noopener noreferrer">
+            <h4>LITE-wire</h4>
             <span class="details">
-              <span class="date">2019</span>
-              <span class="description">Improving life through wearable sensor technology</span>
+              <span class="date">2012-2013</span>
+              <span class="description">British designers, manufacturers & assemblers of automotive lighting & electrical systems.</span>
             </span>
           </a>
         </li>
         <li>
-          <a class="matchbox" href="https://matchboxmobile.com/" target="_blank" rel="noopener noreferrer">
-            <h4>Matchbox Mobile</h4>
+          <a class="celestion" href="https://celestion.com/" target="_blank" rel="noopener noreferrer">
+            <h4>Celestion</h4>
             <span class="details">
-              <span class="date">2018</span>
-              <span class="description">Mobile, cloud, voice, IoT, AI, and more</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="beano" href="https://beano.com/" target="_blank" rel="noopener noreferrer">
-            <h4>Beano</h4>
-            <span class="details">
-              <span class="date">2018</span>
-              <span class="description">Cross-platform content for kids</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="beeline" href="https://beeline.co" target="_blank" rel="noopener noreferrer">
-            <h4>Beeline</h4>
-            <span class="details">
-              <span class="date">2016 - 2018</span>
-              <span class="description">Simpler navigation for bicycles</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="boopjs" href="https://github.com/chetbox/boopjs" target="_blank" rel="noopener noreferrer">
-            <h4>boop.js</h4>
-            <span class="details">
-              <span class="date">2015 - 2016</span>
-              <span class="description">UI test automation for Android apps</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="double" href="http://www.joindouble.com/" target="_blank" rel="noopener noreferrer">
-            <h4>Double</h4>
-            <span class="details">
-              <span class="date">2015</span>
-              <span class="description">Safer, less awkward dating</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="livingmap" href="https://livingmap.com/" target="_blank" rel="noopener noreferrer">
-            <h4>Living Map</h4>
-            <span class="details">
-              <span class="date">2015</span>
-              <span class="description">Smart maps for mobile devices</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="swiftkey" href="https://swiftkey.com/en" target="_blank" rel="noopener noreferrer">
-            <h4>SwiftKey</h4>
-            <span class="details">
-              <span class="date">2010 - 2015</span>
-              <span class="description">The keyboard powered by you</span>
+              <span class="date">2010 - 2011</span>
+              <span class="description"> British designer, manufacturer and exporter of loudspeakers.</span>
             </span>
           </a>
         </li>
       </ol>
-      <h3>Open source</h3>
-      <ol class="projects" id="open-source">
-        <li>
-          <a class="node-dmx" href="https://github.com/chetbox/dmx-audio-visualiser" target="_blank" rel="noopener noreferrer">
-            <h4>Node.js DMX</h4>
-            <span class="details">
-              <span class="description">Realtime timings for node-dmx</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="firebase-mock-functions" href="https://www.npmjs.com/package/firebase-mock-functions" target="_blank" rel="noopener noreferrer">
-            <h4>Firebase Mock Functions</h4>
-            <span class="details">
-              <span class="description">A Node.js library for testing Firebase Database triggers offline</span>
-            </span>
-          </a>
-        </li>
-      </ol>
-      <h3>Things I've made</h3>
-      <ol class="projects">
-        <li>
-          <a class="dvd-player" href="https://github.com/chetbox/raspberry-pi-dvd-player" target="_blank" rel="noopener noreferrer">
-            <h4>Raspberry Pi DVD player</h4>
-            <span class="details">
-              <span class="description">A teeny tiny low-power DVD player</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="dmx-audio-visualiser" href="https://github.com/chetbox/dmx-audio-visualiser" target="_blank" rel="noopener noreferrer">
-            <h4>DMX Audio Visualiser</h4>
-            <span class="details">
-              <span class="description">Visualise audio in realtime on LED tape</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="lifx-switch" href="https://github.com/chetbox/lifx-switch" target="_blank" rel="noopener noreferrer">
-            <h4>LIFX Switch</h4>
-            <span class="details">
-              <span class="description">A web-based switch for LIFX lights</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="kaleidoscope" href="https://kaleidoscope.chetbox.com" target="_blank" rel="noopener noreferrer">
-            <h4>Kaleidoscope Roulette</h4>
-            <span class="details">
-              <span class="description">WebRTC "Chatroulette" with reflective patterns</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="place" href="https://place.chetbox.com" target="_blank" rel="noopener noreferrer">
-            <h4>r/place clone</h4>
-            <span class="details">
-              <span class="description">Multiplayer pixel art</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="beeline-rides" href="https://busy.likeab.ee/rides/public/embed/#HzEGvGaQt4W1rWKx3TzIASasrvY2" target="_blank" rel="noopener noreferrer">
-            <h4>My Beeline Rides</h4>
-            <span class="details">
-              <span class="description">Where I've cycled with Beeline</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="wheely-bike" href="https://chetbox.com/wheely-bike/" target="_blank" rel="noopener noreferrer">
-            <h4>Wheely Bike</h4>
-            <span class="details">
-              <span class="description">A little bike that spins around your screen</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="emojikey" href="https://github.com/chetbox/Emojikey" target="_blank" rel="noopener noreferrer">
-            <h4>Emojikey</h4>
-            <span class="details">
-              <span class="description">Search and type emojis in Chrome/Chromium</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="minishift-tetris" href="https://github.com/chetbox/minishift-tetris" target="_blank" rel="noopener noreferrer">
-            <h4>Minishift Tetris</h4>
-            <span class="details">
-              <span class="description">Play Tetris with a Raspberry Pi and Minishift</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="sk iapprove" href="https://github.com/chetbox/iApprove" target="_blank" rel="noopener noreferrer">
-            <h4>iApprove</h4>
-            <span class="details">
-              <span class="description">Audience participation for presentations</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="sk pointy" href="https://github.com/chetbox/pointy" target="_blank" rel="noopener noreferrer">
-            <h4>Pointy</h4>
-            <span class="details">
-              <span class="description">Show where your pointing on-screen during a presentation with a LEAP Motion</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="pys60 patience" href="https://github.com/chetbox/patience-pys60" target="_blank" rel="noopener noreferrer">
-            <h4>Solitaire/Freecell for PyS60</h4>
-            <span class="details">
-              <span class="description">A patience game for Nokia S60 written in Python</span>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a class="pys60 easyedit" href="https://github.com/chetbox/easyedit-pys60" target="_blank" rel="noopener noreferrer">
-            <h4>EasyEdit PyS60</h4>
-            <span class="details">
-              <span class="description">A text editor for Nokia S60 written in Python</span>
-            </span>
-          </a>
-        </li>
-      </ol>
+      <h3>Tools I use</h3>
+        <ol class="wrapper">
+            <div class="fusion360">
+                <a href="https://www.autodesk.co.uk/products/fusion-360/overview" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+            <div class="inkscape"></div>
+            <div class="kotlin"></div>
+            <div></div>
+        </ol>
       <p style="text-align: center; padding: 1em 0;">
         Love what you do and the people you do it with.
       </p>
