@@ -1,0 +1,405 @@
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-weight: 300;
+                margin: 0;
+                bottom: 0;
+            }
+
+            h1 {
+                font-size: 2em;
+                text-align: left
+            }
+
+            h2 {
+                font-size: 1em;
+                line-height: 1.2em;
+                text-align: left
+            }
+
+            h3 {
+                font-size: 1.1em;
+                line-height: 1.1em;
+                color: #999;
+                margin-top: 2.5em;
+                margin-bottom: 1em;
+                text-align: center;
+            }
+
+            h4 {
+                font-size: 1.1em;
+                line-height: 1em;
+            }
+
+            a {
+                color: inherit;
+            }
+
+            body {
+                font-family: 'Nunito', sans-serif;
+                font-weight: 300;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header {
+                width: 100%;
+                background: CornflowerBlue;
+                color: white;
+                padding: 1em 0;
+                box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+            }
+
+            #about-me {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            #about-me *:not(i),
+            .projects *:not(i) {
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+            }
+
+            #about-me > img {
+                margin: 30px;
+                width: 200px;
+                height: 172px;
+                border-radius: 20px;
+                flex-shrink: 0;
+                box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #about-me .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            #about-me .info > * {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            #about-me p {
+                opacity: 0.8;
+                font-weight: 300;
+                margin-bottom: 0;
+                margin-top: 1em;
+                text-align: center;
+                max-width: 80vw;
+            }
+
+            #about-me .info a {
+                font-weight: 500;
+                font-display: fallback;
+            }
+
+            #about-me a {
+                text-decoration: none;
+                transition: opacity 200ms;
+                opacity: 0.8;
+            }
+
+            #about-me a:hover {
+                opacity: 1;
+            }
+
+            nav {
+                margin: 1em 0;
+                cursor: default;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 0 1em 0 0;
+                font-size: 25px;
+                opacity: 0.8;
+                transition: opacity 200ms;
+            }
+
+            nav a:hover {
+                opacity: 1;
+            }
+
+            i.fa-instagram {
+                font-weight: 500;
+            }
+
+            #content > p {
+                text-align: justify;
+                padding: 0 1.2em;
+                box-sizing: border-box;
+            }
+
+            .projects {
+                list-style: none;
+                padding-left: 0;
+                margin: 0;
+            }
+
+            .projects h3 {
+                font-weight: 400;
+                margin: 0;
+                font-display: fallback;
+            }
+
+            .projects > li > a {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                height: 85px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                background-color: white;
+                color: #fff;
+                margin: 7px;
+                padding-left: 95px;
+                padding-right: 5px;
+                background-size: 85px;
+                background-position: left;
+                background-repeat: no-repeat;
+                box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .15);
+            }
+
+            .projects > li .details {
+                font-size: 0.8em;
+                display: block;
+                width: 100%;
+            }
+
+            .projects > li .date {
+                opacity: 0.67;
+                margin-left: 1em;
+                margin-right: 1em;
+                float: right;
+            }
+
+            .projects .thrive-wearables {
+                background-image: url('images/Thrive_152p.png');
+                background-color: #388E3C;
+            }
+
+            .projects .hbl {
+                background-image: url(images/HBL.png);
+                background-color: dodgerblue;
+            }
+
+            .projects .lite-wire {
+                background-image: url(images/lite-wire.png);
+                background-color: red;
+            }
+
+            .projects .celestion {
+                background-image: url(images/celestion.png);
+                background-color: black;
+            }
+
+            .projects .masters {
+                background-image: url(images/school-24px.svg);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .undergrad {
+                background-image: url(images/school-24px.svg);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .volleyball {
+                background-image: url(images/volleyball.png);
+                color: black;
+            }
+
+            .projects .music {
+                background-image: url(images/music.svg);
+                color: black;
+            }
+
+            .projects .crumpets {
+                background-image: url(images/crumpet.svg);
+                color: black;
+            }
+
+            .projects .radio {
+                background-image: url(images/radio.svg);
+                color: black;
+            }
+
+            .projects a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .projects > li > * {
+                margin-left: 16px;
+                margin-right: 16px;
+            }
+
+            .wrapper {
+                display: grid;
+                padding-left: 0;
+                margin: 0;
+                grid-template-columns: repeat(3, 100px);
+                grid-auto-rows: 100px;
+                justify-content: center;
+            }
+
+            .wrapper > a {
+                justify-content: center;
+                background-color: black;
+                color: transparent;
+                margin: 5px;
+                background-size: 72px;
+                background-position: center;
+                background-repeat: no-repeat;
+                box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .2);
+                border-radius: 20px;
+            }
+
+            .wrapper > a:hover {
+                opacity: 0.8;
+                transition-duration: opacity 1s;
+            }
+
+
+            .wrapper .fusion360 {
+                background-image: url(images/fusion360.jpeg);
+                background-color: white;
+            }
+
+            .wrapper .inkscape {
+                background-image: url(images/inkscape.png);
+                background-color: white;
+            }
+
+            .wrapper .kotlin {
+                background-image: url(images/kotlin.png);
+                background-color: white;
+            }
+
+            .wrapper .arduino {
+                background-image: url(images/arduino.jpg);
+                background-color: white;
+            }
+
+            .wrapper .arduino {
+                background-image: url(images/arduino.jpg);
+                background-color: white;
+            }
+
+            .wrapper .cura {
+                background-image: url(images/CUra.png);
+                background-color: white;
+            }
+
+            .wrapper .solidworks {
+                background-image: url(images/solidworks.png);
+                background-color: white;
+            }
+
+            .wrapper .listen {
+                background-image: url(images/listen.png);
+                background-color: white;
+            }
+
+            .wrapper .matlab {
+                background-image: url(images/matlab.gif);
+                background-color: white;
+            }
+
+            .wrapper .raspberrypi {
+                background-image: url(images/raspberrypi.png);
+                background-color: white;
+            }
+
+            .wrapper .androidstudio {
+                background-image: url(images/androidstudio.png);
+                background-color: white;
+            }
+
+            .wrapper .klippel {
+                background-image: url(images/klippel.png);
+                background-color: white;
+            }
+
+            .wrapper .autocad {
+                background-image: url(images/autocad.png);
+                background-color: white;
+            }
+
+            .wrapper .python {
+                background-image: url(images/python.png);
+                background-color: white;
+            }
+
+            .wrapper .github {
+                background-image: url(images/GitHub.png);
+                background-color: white;
+            }
+
+            .wrapper .circuitmaker {
+                background-image: url(images/circuitmaker.png);
+                background-color: white;
+            }
+
+
+            /* small screens */
+            @media screen and (max-width: 566px) {
+                header::after {
+                    content: '';
+                }
+            }
+
+            /* large screens */
+            @media screen and (min-width: 567px) {
+                header {
+                    padding: 2em 0;
+                }
+
+                .wrapper {
+                    grid-template-columns: repeat(5, 100px);
+
+                }
+
+                #about-me {
+                    margin-left: auto;
+                    margin-right: auto;
+                    flex-direction: row;
+                    max-width: 500px;
+                }
+
+                #about-me .info {
+                    align-items: flex-start;
+                }
+
+                #about-me p {
+                    text-align: left;
+                }
+
+                #content {
+                    margin-top: 2em;
+                    margin-bottom: 2em;
+                }
+
+                #content > * {
+                    max-width: 500px;
+                }
+
+                #content > p {
+                    padding: 0;
+                }
+            }
