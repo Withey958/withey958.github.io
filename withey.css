@@ -213,6 +213,12 @@
                 color: black;
             }
 
+            .projects .udemy {
+                background-image: url(images/udemy.jpeg);
+                background-color: white;
+                color: black;
+            }
+
             .projects .undergrad {
                 background-image: url(images/school-24px.svg);
                 background-color: white;
