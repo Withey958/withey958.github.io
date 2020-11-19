@@ -187,6 +187,11 @@
                 float: right;
             }
 
+            .projects .arete {
+                background-image: url('images/arete.png');
+                background-color: #ECA8C1;
+            }
+
             .projects .thrive-wearables {
                 background-image: url('images/Thrive_152p.png');
                 background-color: #388E3C;
