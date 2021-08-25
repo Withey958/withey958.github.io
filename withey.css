@@ -1,7 +1,8 @@
             h1,
             h2,
             h3,
-            h4 {
+            h4,
+            h5 {
                 font-weight: 300;
                 margin: 0;
                 bottom: 0;
@@ -30,6 +31,13 @@
             h4 {
                 font-size: 1.1em;
                 line-height: 1em;
+            }
+
+            h5 {
+                font-size: 0.7em;
+                line-height: 1em;
+                text-align: center;
+                color: #999;
             }
 
             a {
@@ -185,6 +193,7 @@
                 margin-left: 1em;
                 margin-right: 1em;
                 float: right;
+                text-align: end;
             }
 
             .projects .arete {
@@ -212,11 +221,49 @@
                 background-color: black;
             }
 
+            .projects .wolf-bite-alarm {
+                background-image: url(images/WOLF-ICON-Qi-Alarm.jpg);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .sensate {
+                background-image: url(images/Sensate+6+-+1500x1500.png);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .moony-belt {
+                background-image: url(images/My-Moony-belt.png);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .arcx {
+                background-image: url(images/arcx.png);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .loudspeaker {
+                background-image: url(images/louadspeaker.jpg);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .headphones {
+                background-image: url(images/headphones.png);
+                background-color: white;
+                color: black;
+            }
+
             .projects .masters {
                 background-image: url(images/school-24px.svg);
                 background-color: white;
                 color: black;
             }
+
+
 
             .projects .udemy {
                 background-image: url(images/udemy.jpeg);
@@ -240,8 +287,8 @@
                 color: black;
             }
 
-            .projects .crumpets {
-                background-image: url(images/crumpet.svg);
+            .projects .cycling {
+                background-image: url(images/cycling_shoe.png);
                 color: black;
             }
 
