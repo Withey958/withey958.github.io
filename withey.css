@@ -239,6 +239,12 @@
                 color: black;
             }
 
+            .projects .pulse {
+                background-image: url(images/pulse.png);
+                background-color: white;
+                color: black;
+            }
+
             .projects .arcx {
                 background-image: url(images/arcx.png);
                 background-color: white;
@@ -262,8 +268,6 @@
                 background-color: white;
                 color: black;
             }
-
-
 
             .projects .udemy {
                 background-image: url(images/udemy.jpeg);
