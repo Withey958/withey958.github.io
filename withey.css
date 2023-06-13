@@ -196,6 +196,11 @@
                 text-align: end;
             }
 
+            .projects .ibex {
+                background-image: url('images/ibex.png');
+                background-color: #8897a7;
+            }
+
             .projects .arete {
                 background-image: url('images/arete.png');
                 background-color: #3541A6;
@@ -241,6 +246,12 @@
 
             .projects .pulse {
                 background-image: url(images/pulse.png);
+                background-color: white;
+                color: black;
+            }
+
+            .projects .ibexbh {
+                background-image: url(images/ibexbh.png);
                 background-color: white;
                 color: black;
             }
