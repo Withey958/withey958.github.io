@@ -75,7 +75,7 @@
                 font-weight: 200;
             }
 
-            #about-me > img {
+            #about-me>img {
                 margin: 30px;
                 width: 200px;
                 height: 172px;
@@ -95,7 +95,7 @@
                 text-align: center;
             }
 
-            #about-me .info > * {
+            #about-me .info>* {
                 padding-left: 16px;
                 padding-right: 16px;
             }
@@ -145,7 +145,7 @@
                 font-weight: 500;
             }
 
-            #content > p {
+            #content>p {
                 text-align: justify;
                 padding: 0 1.2em;
                 box-sizing: border-box;
@@ -163,7 +163,7 @@
                 font-display: fallback;
             }
 
-            .projects > li > a {
+            .projects>li>a {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
@@ -182,13 +182,13 @@
                 box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .15);
             }
 
-            .projects > li .details {
+            .projects>li .details {
                 font-size: 0.8em;
                 display: block;
                 width: 100%;
             }
 
-            .projects > li .date {
+            .projects>li .date {
                 opacity: 0.67;
                 margin-left: 1em;
                 margin-right: 1em;
@@ -256,6 +256,12 @@
                 color: black;
             }
 
+            .projects .arete-respicorder {
+                background-image: url(images/RespiP4Render.png);
+                background-color: white;
+                color: black;
+            }
+
             .projects .arcx {
                 background-image: url(images/arcx.png);
                 background-color: white;
@@ -317,7 +323,7 @@
                 color: #fff;
             }
 
-            .projects > li > * {
+            .projects>li>* {
                 margin-left: 16px;
                 margin-right: 16px;
             }
@@ -331,7 +337,7 @@
                 justify-content: center;
             }
 
-            .wrapper > a {
+            .wrapper>a {
                 justify-content: center;
                 background-color: black;
                 color: transparent;
@@ -343,7 +349,7 @@
                 border-radius: 20px;
             }
 
-            .wrapper > a:hover {
+            .wrapper>a:hover {
                 opacity: 0.8;
                 transition-duration: opacity 1s;
             }
@@ -429,6 +435,15 @@
                 background-color: white;
             }
 
+            .wrapper .flutter {
+                background-image: url(images/flutter.png);
+                background-color: white;
+            }
+
+            .wrapper .dart {
+                background-image: url(images/dart.png);
+                background-color: white;
+            }
 
             /* small screens */
             @media screen and (max-width: 566px) {
@@ -468,11 +483,11 @@
                     margin-bottom: 2em;
                 }
 
-                #content > * {
+                #content>* {
                     max-width: 500px;
                 }
 
-                #content > p {
+                #content>p {
                     padding: 0;
                 }
             }
