@@ -196,6 +196,11 @@
                 text-align: end;
             }
 
+            .projects .pneumacare {
+                background-image: url('images/pneumacare.png');
+                background-color: #c9592c;
+            }
+
             .projects .ibex {
                 background-image: url('images/ibex.png');
                 background-color: #8897a7;
