@@ -346,6 +346,12 @@
                 color: black;
             }
 
+            .projects .peoplecert {
+                background-image: url(images/peoplecert_group_logo.jpg);
+                background-color: white;
+                color: black;
+            }
+
             .projects .undergrad {
                 background-image: url(images/school-24px.svg);
                 background-color: white;
