@@ -60,15 +60,37 @@
                 align-items: center;
             }
 
+            @keyframes headerGradient {
+                0%   { background-position: 0% 50%; }
+                50%  { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
+            }
+
             header {
                 width: 100%;
-                background: #1565C0;
+                background: linear-gradient(-45deg, #0D47A1, #1565C0, #1976D2, #0D47A1);
+                background-size: 400% 400%;
+                animation: headerGradient 10s ease infinite;
                 color: white;
                 padding: 1em 0;
                 box-shadow: 0 2px 4px 2px rgba(0, 0, 0, .2);
+                position: relative;
+                overflow: hidden;
+            }
+
+            #header-particles {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: 0;
             }
 
             #about-me {
+                position: relative;
+                z-index: 1;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
