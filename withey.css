@@ -44,6 +44,12 @@
                 color: inherit;
             }
 
+            a:focus-visible {
+                outline: 3px solid #1565C0;
+                outline-offset: 2px;
+                border-radius: 4px;
+            }
+
             body {
                 font-family: 'Nunito', sans-serif;
                 font-weight: 300;
@@ -56,10 +62,10 @@
 
             header {
                 width: 100%;
-                background: CornflowerBlue;
+                background: #1565C0;
                 color: white;
                 padding: 1em 0;
-                box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+                box-shadow: 0 2px 4px 2px rgba(0, 0, 0, .2);
             }
 
             #about-me {
@@ -180,6 +186,12 @@
                 background-position: left;
                 background-repeat: no-repeat;
                 box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .15);
+                transition: box-shadow 200ms ease, transform 200ms ease;
+            }
+
+            .projects>li>a:hover {
+                box-shadow: 0 4px 12px 2px rgba(0, 0, 0, .22);
+                transform: translateY(-2px);
             }
 
             .projects>li .details {
@@ -426,11 +438,6 @@
                 background-color: white;
             }
 
-            .wrapper .klippel {
-                background-image: url(images/klippel.png);
-                background-color: white;
-            }
-
             .wrapper .adobe {
                 background-image: url(images/adobe_cc.png);
                 background-color: white;
@@ -461,6 +468,11 @@
                 background-color: white;
             }
 
+            .wrapper .claudecode {
+                background-image: url(images/claude-ai-icon.webp);
+                background-color: white;
+            }
+
             /* small screens */
             @media screen and (max-width: 566px) {
                 header::after {
@@ -468,22 +480,21 @@
                 }
             }
 
-            /* large screens */
+            /* medium screens: tablet */
             @media screen and (min-width: 567px) {
                 header {
                     padding: 2em 0;
                 }
 
                 .wrapper {
-                    grid-template-columns: repeat(5, 100px);
-
+                    grid-template-columns: repeat(4, 100px);
                 }
 
                 #about-me {
                     margin-left: auto;
                     margin-right: auto;
                     flex-direction: row;
-                    max-width: 500px;
+                    max-width: 520px;
                 }
 
                 #about-me .info {
@@ -500,10 +511,25 @@
                 }
 
                 #content>* {
-                    max-width: 500px;
+                    max-width: 520px;
                 }
 
                 #content>p {
                     padding: 0;
+                }
+            }
+
+            /* large screens: desktop */
+            @media screen and (min-width: 768px) {
+                .wrapper {
+                    grid-template-columns: repeat(5, 100px);
+                }
+
+                #about-me {
+                    max-width: 640px;
+                }
+
+                #content>* {
+                    max-width: 640px;
                 }
             }
