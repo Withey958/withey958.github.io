@@ -9,7 +9,10 @@
       "Bash(for f in cycling_shoe.png)",
       "Bash(do file \"c:/Users/Luke/Documents/GitHub/withey958.github.io/images/$f\")",
       "Bash(done)",
-      "Bash(git -C c:/Users/Luke/Documents/GitHub/withey958.github.io status --short)"
+      "Bash(git -C c:/Users/Luke/Documents/GitHub/withey958.github.io status --short)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm test)"
     ]
   }
 }
