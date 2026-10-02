@@ -234,6 +234,11 @@
                 text-align: end;
             }
 
+            .projects .smg {
+                background-image: url('images/smg-icon.png');
+                background-color: #542D8C;
+            }
+
             .projects .careline365 {
                 background-image: url('images/careline365.png');
                 background-color: #EA1414;
